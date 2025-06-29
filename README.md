@@ -77,3 +77,50 @@ Each table stores all necessary information like login, service details, user pr
 
 ## 📁 Folder Structure
 
+📦 src
+┣ 📂 models
+┣ 📂 views
+┣ 📂 controllers
+┣ 📂 utils
+┣ Main.java
+┗ db_config.properties
+
+## 🔐 Login Roles
+
+| Role   | Access                                |
+|--------|----------------------------------------|
+| Admin  | Full access to manage users & services |
+| User   | Book services, view bookings           |
+| Provider | Register and update service info     |
+
+---
+
+## 🔒 Security
+
+- Passwords are hashed (if implemented)
+- Access control based on user type
+- Restricted admin features to admins only
+
+---
+
+## 📈 Future Improvements
+
+- Add OTP or email verification during sign up
+- Add payment gateway integration
+- Notification system for booking updates
+- Add rating & review system
+- Export booking history as PDF
+
+---
+
+## 👨‍💻 Developer
+
+**Abdul Rehman**  
+📧 [rehmanabdul1445@gmail.com]  
+🎓 ITSE - 2nd Semester Project
+
+---
+
+## 📄 License
+
+This project is for academic purposes only. No commercial use intended.
